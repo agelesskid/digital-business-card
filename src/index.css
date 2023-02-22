@@ -39,30 +39,37 @@ h2, h3, p, a {
   max-height: 317px;
 }
 
-.card-main-content {
-  padding: 1.25em 2.1875em;
-  padding-bottom: 2.5em;
+.card-main-content, .info-wrapper {
+  padding: 0 2.1875em;
 }
 
 .info-wrapper {
+  padding-top: 1.25em;
+}
+
+.card-main-content {
+  padding: 2.5em 2.1875em;
+}
+
+.name-wrapper {
   text-align: center;
   margin-bottom: .94em;
 }
 
-.info-wrapper h2 {
+.name-wrapper h2 {
   font-size: 1.56rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
-.info-wrapper p {
+.name-wrapper p {
   color: #F3BF99;
   text-transform: capitalize;
   font-size: .81rem;
   line-height: 1.2;
 }
 
-.info-wrapper a, .about-wrapper p {
+.name-wrapper a, .about-wrapper p {
   font-size: .63em;
   line-height: 1.5;
 }
@@ -72,7 +79,6 @@ h2, h3, p, a {
   display: flex;
   justify-content: space-between;
   gap: 1.2em;
-  margin-bottom: 2.06em;
 }
 
 .links-wrapper a {
